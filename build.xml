@@ -5,7 +5,7 @@
 	</target>
 	<target name = "compile">
 	<mkdir dir="bin"/>
-		<javac includeantruntime="false" destdir ="bin" srcdir="src;tests" classpath="lib\junit.jar"/>
+		<javac includeantruntime="false" destdir ="bin" srcdir="src;tests" classpath="..\lib\junit.jar"/>
 	</target>
 	<target name="tests" depends="compile">
 		
